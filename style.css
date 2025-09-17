@@ -226,6 +226,7 @@ ul.ham-menu li a{
 .buttons {
     margin-top: 20px;
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     justify-content: center;
     align-items: center;
@@ -363,6 +364,15 @@ ul.ham-menu li a{
     .hamburger-icon {
         display: flex;
     }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .get-in-touch,
+    .download {
+    width: 100%;
+}
 
     .grid-container {
         display: flex;
