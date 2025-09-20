@@ -828,6 +828,13 @@ footer {
 }
 
 @media (max-width: 460px) {
+
+
+    .ham-menu {
+        margin: auto;
+        border-radius: 0;
+    }
+
     .education-focusing-grid {
         display: grid;
         grid-template-areas: 
@@ -856,4 +863,5 @@ footer {
     .education, .focusing {
         border-radius: 30px;
     }
+
 }
