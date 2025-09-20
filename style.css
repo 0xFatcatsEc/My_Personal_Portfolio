@@ -847,4 +847,12 @@ footer {
         transition: all .4s ease;
         width: 100%;
     }
+
+    .right-card {
+        width: 80%;
+    }
+
+    .education, .focusing {
+        border-radius: 20px;
+    }
 }
