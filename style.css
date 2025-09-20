@@ -782,7 +782,7 @@ footer {
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding: 50px 10px 0;
+        padding: 50px 0;
         align-items: center;
         gap: 20px;
     }
@@ -805,4 +805,46 @@ footer {
         max-width: 100%;
     }
 
+    .technologies-container {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-card {
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .education-focusing-grid {
+        display: grid;
+        grid-template-areas: 
+            "education"
+            "focusing";
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education,
+    .focusing {
+        grid-area: education, focusing;
+        background-color: #48114876;
+        border-radius: 10%;
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        transition: all .4s ease;
+        width: 100%;
+    }
 }
